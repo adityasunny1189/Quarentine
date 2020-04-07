@@ -1,0 +1,22 @@
+.main-cont {
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    background-color: steelblue;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: lato;
+}
+
+p {
+    font-size: 20px;
+    font-family: lato;
+}
+
+input {
+    height: 30px;
+    width: 30px;
+}
