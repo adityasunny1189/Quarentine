@@ -7,6 +7,8 @@ function ImgTile(props) {
         margin:"auto",
         textAlign: "center",
         border: "5px solid gold",
+        backgroundColor: "teal",
+        borderRadius: "20%",
         paddingTop: 10,
         marginBottom: 10
     }
@@ -14,6 +16,7 @@ function ImgTile(props) {
     const stylesCss = {
         height: 100,
         width: 100,
+        borderRadius: "50%",
         border: "2px solid black",
         margin: 0
     }

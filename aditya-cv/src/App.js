@@ -32,6 +32,8 @@
 import React from 'react'
 
 import ImgTile from './projectTwoComp/ImgTile'
+import NewButton from './projectTwoComp/NewButton'
+// import Skeleton from '@material-ui/lab/Skeleton';
 
 function App() {
   return (
@@ -62,6 +64,8 @@ function App() {
         imgURL = "https://miro.medium.com/max/1400/0*U2DmhXYumRyXH6X1.png"
         email = "Redux@gmail.com"
       />
+
+      <NewButton />
     </div>
   )
 }

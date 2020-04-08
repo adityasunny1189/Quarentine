@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '@material-ui/core/Button'
 
 function MyButton() {
 
@@ -14,7 +15,7 @@ function MyButton() {
     }
     return (
         <div>
-            <button style = {butStyle}>Add todo items</button>
+            <Button style = { butStyle } type = "secondary">Add items</Button>
         </div>
     )
 }
